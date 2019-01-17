@@ -5,22 +5,38 @@
   left: 0;
   right: 0;
   bottom: 0;
-  
-  background-color: #FFE0AF;
-  background-image:
-  linear-gradient(45deg, #FFDD88 25%, transparent 25%, transparent 75%, #FFDD88 75%, #FFDD88), 
-  linear-gradient(45deg, #FFDD88 25%, transparent 25%, transparent 75%, #FFDD88 75%, #FFDD88),
-  linear-gradient(45deg, transparent, transparent 50%, #FFC87F 50%, #FFC87F);
+
+  background-color: #ffe0af;
+  background-image: linear-gradient(
+      45deg,
+      #ffdd88 25%,
+      transparent 25%,
+      transparent 75%,
+      #ffdd88 75%,
+      #ffdd88
+    ),
+    linear-gradient(
+      45deg,
+      #ffdd88 25%,
+      transparent 25%,
+      transparent 75%,
+      #ffdd88 75%,
+      #ffdd88
+    ),
+    linear-gradient(45deg, transparent, transparent 50%, #ffc87f 50%, #ffc87f);
   background-size: 100px 100px;
   background-position: 0 0, 50px 50px, 50px 0px;
   -webkit-animation: scroll 5s linear infinite;
 }
 
 @-webkit-keyframes scroll {
-  from { background-position: 0 0, 50px 50px, 50px 0; }
-  to { background-position: -100px -100px, -50px -50px, -50px -100px; }
+  from {
+    background-position: 0 0, 50px 50px, 50px 0;
+  }
+  to {
+    background-position: -100px -100px, -50px -50px, -50px -100px;
+  }
 }
-
 #logo {
   position: absolute;
   top: 50%;
@@ -34,31 +50,31 @@
   }
   15% {
     opacity: 1;
-    transform: rotate(25deg) translate(-50%, -155%)
+    transform: rotate(25deg) translate(-50%, -155%);
   }
   38% {
-    transform: rotate(-3deg) translate(80%, -135%) ;
+    transform: rotate(-3deg) translate(80%, -135%);
   }
   60% {
-    transform: rotate(18deg) translate(-10%, -85%)
+    transform: rotate(18deg) translate(-10%, -85%);
   }
   80% {
     transform: rotate(-10deg) translate(70%, -50%);
   }
   93% {
-    transform: rotate(5deg) translate(33%, -25%)
+    transform: rotate(5deg) translate(33%, -25%);
   }
   100% {
     transform: translate(35%, -18%);
   }
 }
-.leaf{
+.leaf {
   opacity: 0;
   position: absolute;
   top: 0%;
   left: 50%;
 }
-#logo > .leaf{
+#logo > .leaf {
   opacity: 1;
-  -webkit-animation: float 4s ease-in-out forwards ;
+  -webkit-animation: float 4s ease-in-out forwards;
 }
