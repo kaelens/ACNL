@@ -1,2 +1,2 @@
 # ACNL
-Animal Crossing New Leaf
+Just a small animation for Animal Crossing New Leaf!
